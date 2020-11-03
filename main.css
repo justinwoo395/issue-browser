@@ -2,22 +2,10 @@ body {
     font-family: helvetica;
 }
 
-ul {
-    font-family: monospace;
+td.details-control {
+    background: url(details_open.png) no-repeat center center;
+    cursor: pointer;
 }
-
-li {
-    list-style: circle;
+tr.shown td.details-control {
+    background: url(details_close.png) no-repeat center center;
 }
-
-.list {
-    list-style: square;
-}
-
-#date {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
-}
-
-/* CSS comments are just like multi-line JavaScript ones. */
